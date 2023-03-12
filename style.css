@@ -61,17 +61,17 @@ p {
     position: absolute;
 }
 
-.bayan-input:checked ~ .bayan-title {
+.bayan-input:checked~.bayan-title {
     background-color: green;
 }
 
-.bayan-input:checked ~ .bayan-title:after {
+.bayan-input:checked~.bayan-title:after {
     border-style: solid;
     border-width: 0 5px 8px 5px;
     border-color: transparent transparent black transparent;
 }
 
-.bayan-input:checked ~ .bayan-text {
+.bayan-input:checked~.bayan-text {
     display: block;
 }
 
@@ -83,3 +83,24 @@ p {
 }
 
 
+
+
+@media (max-width: 1919px) {
+    body {
+        font-size: 1.7em;
+    }
+
+    .bayan-text {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 819px) {
+    body {
+        font-size: 2em;
+    }
+
+    .bayan-text {
+        font-size: 0.75em;
+    }
+}
