@@ -75,15 +75,19 @@ p {
     display: block;
 }
 
+.bayan-input:checked~.bayan-meme {
+    display: flex;
+}
+
 .bayan-text {
     display: none;
     padding: 10px 15px;
     color: black;
     font-size: 14px;
 }
-
-
-
+.bayan-meme {
+    display: none;
+}
 
 @media (max-width: 1919px) {
     body {
